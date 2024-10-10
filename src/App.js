@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact Component={Home}/>
+        <Route path="/portfolio" exact Component={Home}/>
         <Route path="/about" exact Component={About}/>
         <Route path="/skills" exact Component={Skills}/>
         <Route path="/project" exact Component={Project}/>
