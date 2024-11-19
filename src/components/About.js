@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Style.module.css'
 import Head from './Head'
-import about from './images/about.jpg'
+import about from './images/wb.jpg'
 
 const About = () => {
   return (
@@ -14,12 +14,12 @@ const About = () => {
         </h1>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-5'>
+            {/* <div className='col-md-4'>
               <div className={style.images}>
                 <img src={about} />
               </div>
-            </div>
-            <div className='col-md-7'>
+            </div> */}
+            <div className='col-md-12'>
               <p>
                 As a recent IT Engineer graduate with a passion for web development, I've spent the past few years honing my skills in designing and building innovative web applications. My journey began at my college, where I developed a strong foundation in IT and software engineering. During my studies, I worked on various projects that allowed me to explore different programming languages, frameworks, and technologies.
 

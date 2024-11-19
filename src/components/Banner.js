@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from './images/webdeveloper.jpg'
+import banner from './images/webdev.jpg'
 import style from './Style.module.css'
 
 const Banner = () => {
@@ -7,6 +7,12 @@ const Banner = () => {
     <div className={style.banner}>
       <div className='container'>
         <div className='row'>
+          <div className='col-md-6'>
+            <div className={style.image}>
+              <img src={banner} alt='Placeholder' />
+            </div>
+
+          </div>
           <div className='col-md-6'>
             <h2 >Welcome to My Portfolio</h2>
             <p>
@@ -16,15 +22,10 @@ const Banner = () => {
               <a href=''>Resume</a>
             </button>
           </div>
-          <div className='col-md-6'>
-            <div className={style.image}>
-            <img src={banner} alt='Placeholder' />
-            </div>
-            
-          </div>
+
         </div>
       </div>
-      
+
     </div>
   )
 }
